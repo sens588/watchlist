@@ -1,0 +1,37 @@
+body{
+	margin:auto;
+	max-width:580px;
+	font-size: 14px;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+footer{
+	color: #888;
+	margin-top: 15px;
+	text-align: center;
+	padding: 10px;
+}
+
+.avatar{
+	width: 40px;
+}
+
+.movie-list{
+	/* list-sytle-type: none;*/
+	padding: 0;
+	margin-bottom: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+
+.movie-list li{
+	padding: 12px /* 上下 */24px /* 左右 */;
+	border-bottom: 1px solid red;
+
+}
+
+.movie-list li:last-child {
+border-bottom:none;
+}
+.movie-list li:hover {
+background-color: lightblue;
+}
